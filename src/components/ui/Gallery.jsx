@@ -51,40 +51,40 @@ class Gallery extends React.Component {
     render() {
         const imgs = [
             [
-                'http://img.hb.aicdn.com/1cad414972c5db2b8c1942289e3aeef37175006a8bb16-CBtjtX_fw',
-                'http://img.hb.aicdn.com/016f2e13934397e17c3482a4529f3da1149d37fd2a99c-RVM1Gi_fw',
-                'http://img.hb.aicdn.com/8c5d5f2bf6427d1b5ed8657a7ae0c9938d3465e367899-AJ0zVA_fw',
-                'http://img.hb.aicdn.com/bd71ccac0b16bbcade255a1a8a63504d71c7dee9a8652-zBCN9d_fw',
-                'http://img.hb.aicdn.com/37a40cb04345463858d45418ae6ed9ef319e30dc37a45-o4pQ0j_fw',
+                'https://cdn.pixabay.com/photo/2019/06/22/20/55/godfather-4292451__340.jpg',
+                'https://cdn.pixabay.com/photo/2019/09/04/09/48/mammal-4451152__340.jpg',
+                'https://cdn.pixabay.com/photo/2015/11/22/19/04/crowd-1056764__340.jpg',
+                'http://img4.imgtn.bdimg.com/it/u=3858594025,2237922397&fm=26&gp=0.jpg',
+                'https://cdn.pixabay.com/photo/2019/09/04/20/34/plantation-4452538__340.jpg',
 
             ],
             [
-                'http://img.hb.aicdn.com/5fad6c3a14a9b80c4448835bb6b23ab895d18e234eff3-BPGmox_fw',
-                'http://img.hb.aicdn.com/a1a19de5dac212a646ba6967ef565786399fb1665bd04-EEvwzR_fw',
-                'http://img.hb.aicdn.com/06595f8044e881de3a82d691768bc8c21a2a9f3633d60-XKjC2s_fw',
-                'http://img.hb.aicdn.com/880787b36d45efbe05aa409c867db29a3028e02da7f9b-qxGib9_fw',
-                'http://img.hb.aicdn.com/4964b97f6f6eb61a20922b40842adf0169c44e491c4b60-azX1S7_fw'
+                'https://cdn.pixabay.com/photo/2019/09/03/13/57/forest-4449492__340.jpg',
+                'https://cdn.pixabay.com/photo/2019/08/25/05/54/tiger-4428788__340.jpg',
+                'https://cdn.pixabay.com/photo/2019/08/23/16/00/landscape-4425964__340.jpg',
+                'https://cdn.pixabay.com/photo/2019/09/04/13/06/sail-4451570__340.jpg',
+                'https://cdn.pixabay.com/photo/2019/09/03/06/15/girl-4448689__340.jpg'
             ],
             [
-                'http://img.hb.aicdn.com/ff97d00944edfc706c62dd5c0e955c4099a37b407534f-BcUqf0_fw',
-                'http://img.hb.aicdn.com/0e22be22b08c6f78b94283b6cfa890093ac3cae8401e7-b1ftfi_fw',
-                'http://img.hb.aicdn.com/879f870e15f7cc0847c8ae19a5fcbe974d5904bb181d7-RGmtNU_fw',
-                'http://img.hb.aicdn.com/b4a8e62958555a97dc3de9ccb03284bf556c042925522-x50qGv_fw',
-                'http://img.hb.aicdn.com/1ef493a15674e9fd523b248ea4ec43d2ea9ce6952ff3e-WavWKc_fw'
+                'http://img3.imgtn.bdimg.com/it/u=2701126568,1718215955&fm=26&gp=0.jpg',
+                'http://img2.imgtn.bdimg.com/it/u=4167667062,4245270420&fm=26&gp=0.jpg',
+                'https://img02.sogoucdn.com/app/a/100520021/1d5e0ba39c3e736ce5d3ecd820c1016a',
+                'https://img02.sogoucdn.com/app/a/100520021/67c0e5cd1b790c809e27eab115d663e8',
+                'https://img04.sogoucdn.com/app/a/100520021/54ffb9a89ca96058661cee8533df7751'
             ],
             [
-                'http://img.hb.aicdn.com/8e16efec78ac4a3684fc8999d18e3661af40fd4510a25-DDvQON_fw',
-                'http://img.hb.aicdn.com/61dfa024c8040e6a5bcb03d42928fbcb0c87c1a54e731-yc4lvV_fw',
-                'http://img.hb.aicdn.com/6783b4d7811ad7fb87b1446c5488b91179f7608118289-hpEyP3_fw',
-                'http://img.hb.aicdn.com/7be61ba6bdb20a73be63edc387b16eec72d0bbb51c7ef-XafA07_fw',
-                'http://img.hb.aicdn.com/bd3ba3f907fe098b911947e0020615b50fc340ed2df72-WsuHuM_fw'
+                'https://img04.sogoucdn.com/app/a/100520021/d0ef1743ff0b155f823898aecd8977ef',
+                'https://img03.sogoucdn.com/app/a/100520021/ac3b73a5945ac02d15aae8af17e6864f',
+                'https://img03.sogoucdn.com/app/a/100520021/7097ef8fe82b39bfaf3dbb1cb828f5ed',
+                'https://icweiliimg6.pstatp.com/weili/l/650863802271793159.webp',
+                'https://icweiliimg9.pstatp.com/weili/l/579873928483569666.webp'
             ],
             [
-                'http://img.hb.aicdn.com/71471aaac95eade66400a390863b37c76d9addcd14982-0H6sak_fw',
-                'http://img.hb.aicdn.com/cb16c68c4d3b7a08b5e91cd351f6b723634ca3fc27d4d-m1JD8z_fw',
-                'http://img.hb.aicdn.com/e3559b6e8d7237857382050e5659a64cc0b7d696a2869-stcRXA_fw',
-                'http://img.hb.aicdn.com/4ea229436fcf2077502953907a6afb16d3c5cd611b8e2-0dVIeH_fw',
-                'http://img.hb.aicdn.com/98c786f4314736f95a42bf927bf65a82d305a532c6258-njI6id_fw'
+                'https://icweiliimg6.pstatp.com/weili/l/579874100278198295.webp',
+                'http://img.mp.itc.cn/q_70,c_zoom,w_640/upload/20170511/98e7b8ba53af4adb9805a933e847438b_th.jpg',
+                'http://img0.imgtn.bdimg.com/it/u=3236612177,3789718421&fm=26&gp=0.jpg',
+                'http://img5.imgtn.bdimg.com/it/u=307334627,3485973798&fm=26&gp=0.jpg',
+                'http://b-ssl.duitang.com/uploads/item/201804/17/20180417223646_PYzWz.jpeg'
             ]
         ];
         const imgsTag = imgs.map(v1 => (
