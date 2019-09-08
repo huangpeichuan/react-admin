@@ -52,6 +52,7 @@ class Gallery extends React.Component {
         const imgs = [
             [
                 'https://cdn.pixabay.com/photo/2019/06/22/20/55/godfather-4292451__3401.jpg',
+
                 'https://cdn.pixabay.com/photo/2019/09/04/09/48/mammal-4451152__340.jpg',
                 'https://cdn.pixabay.com/photo/2015/11/22/19/04/crowd-1056764__340.jpg',
                 'http://img4.imgtn.bdimg.com/it/u=3858594025,2237922397&fm=26&gp=0.jpg',
