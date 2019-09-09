@@ -87,7 +87,7 @@ class Gallery extends React.Component {
                 'https://hbimg.huabanimg.com/360fc27b7db8a262f01d1c678212a03ebd8ef5199ccf5-WEPdsV_fw658',
 
             ]
-        ];e
+        ];
         const imgsTag = imgs.map(v1 => (
             v1.map(v2 => (
                 <div className="gutter-box" key={v2}>
