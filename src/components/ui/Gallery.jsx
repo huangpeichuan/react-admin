@@ -85,6 +85,7 @@ class Gallery extends React.Component {
                 'https://hbimg.huabanimg.com/453d60ec46b83b3edd7a7ebd4c189724bad17f87330db-bHDlHh_fw658',
                 'https://hbimg.huabanimg.com/17b2256ad0ba5df25dedccd13c802ca2e63e146ddba3d-0jhiGd_fw658',
                 'https://hbimg.huabanimg.com/360fc27b7db8a262f01d1c678212a03ebd8ef5199ccf5-WEPdsV_fw658',
+
             ]
         ];e
         const imgsTag = imgs.map(v1 => (
