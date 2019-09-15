@@ -3,7 +3,8 @@
  */
 import React, { Component } from 'react';
 import screenfull from 'screenfull';
-import avater from '../style/imgs/b1.jpg';
+// import avater from '../style/imgs/b1.jpg';
+import avater from '../style/imgs/A1.jpg';
 import SiderCustom from './SiderCustom';
 import { Menu, Icon, Layout, Badge, Popover } from 'antd';
 import { gitOauthToken, gitOauthInfo } from '../axios';
