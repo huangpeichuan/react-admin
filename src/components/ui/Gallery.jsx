@@ -111,13 +111,14 @@ class Gallery extends React.Component {
                             <img onClick={() => this.openGallery(v2)} alt="example" width="100%" src={v2} />
                         </div>
                         <div className="pa-m">
-                            <h3>React Admin</h3>
+                            <h3>飞鱼的幻想之旅</h3>
                             <small><a href="https://blog.csdn.net/weixin_35654814/" target="_blank" rel="noopener noreferrer">https://blog.csdn.net/weixin_35654814/</a></small>
                         </div>
                     </Card>
                 </div>
             ))
         ));
+        console.info(imgsTag);
         return (
             <div className="gutter-example button-demo">
                 <BreadcrumbCustom first="UI" second="画廊(图片来自花瓣网，仅学习，若侵权请联系删除)" />
