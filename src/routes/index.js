@@ -5,7 +5,7 @@ import React, { Component } from 'react';
 import { Route, Redirect, Switch } from 'react-router-dom';
 import DocumentTitle from 'react-document-title';
 import AllComponents from '../components';
-import routesConfig from './config';
+import routesConfig from './config';//所有菜单的路由配置
 import queryString from 'query-string';
 
 export default class CRouter extends Component {
@@ -30,7 +30,7 @@ export default class CRouter extends Component {
             <Switch>
                 {Object.keys(routesConfig).map(key =>
                     routesConfig[key].map(r => {
-                        const route = r => {
+                        const route = r => { //ES6的函数写法，一个参数r 
                             const Component = AllComponents[r.component];
                             return (
                                 <Route
